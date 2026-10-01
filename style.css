@@ -28,7 +28,7 @@ main {
 .globe-card {
     margin-top:1cm;
     background: linear-gradient(#312b10, #382f08 );
-    border: 6px double #a1a2a3;
+    border: 6px double #bbad33;
     padding: 2rem;
     display: flex;
     flex-direction: column;

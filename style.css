@@ -1,0 +1,88 @@
+body {
+    margin: 10px;
+    color: #928722;
+background-color: #110f05;
+font-family: "Libre Calson Text", Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+.tagline {
+color: #504a13;
+}
+
+.hero {
+    padding: 3rem 1rem 1rem;
+    text-align: center;
+}
+
+main {
+    max-width: 32rem;
+    margin: 0 auto;
+    padding: 0 1rem 4rem;
+}
+
+.globe-card {
+    margin-top:1cm;
+    background: linear-gradient(#312b10, #382f08 );
+    border: 6px double #a1a2a3;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#message {
+    font-style: italic;
+    text-align: center;
+}
+
+.globe {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    border: 6px double #5f570f;
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: centre;
+}
+
+.scene {
+    width: 100%;
+}
+
+button {
+    font: inherit;
+    color:#3b3206;
+    background: #645510;
+    border:outset;
+    border-color: #645510;
+    padding: 0.75rem 1.5rem;
+    cursor:pointer;
+    transition: background 150ms ease, transform 150ms ease;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: #947d18;
+    border-color: #998322;
+    transform: scale(1.05);
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0) rotate(0deg); }
+    20% { transform: translateX(-0.6rem) rotate(-4deg); }
+    40% { transform: translateX(0.6rem) rotate(4deg); }
+    60% { transform: translateX(-0.4rem) rotate(-2deg); }
+    80% { transform: translateX(0.4rem) rotate(2deg); }
+}
+
+.globe.shaking {
+    animation: shake 600ms ease;
+}
